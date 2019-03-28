@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="CMSPack_1.TestNGListeners"/>
+    <listener class-name="CommonResources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="CMSPack_1.AddDocument">
+        <methods>
+          <include name="AddDocuments" invocation-numbers="1 2"/>
+          <include name="close"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- CMSPack_1.AddDocument -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="CMSPack_1.TestNGListeners"/>
+        <listener class-name="CommonResources.ExtentReporterNG"/>
+    </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="CMSPack_1.CMSLogin"/>
+	  <class name="CMSPack_1.AddDocument"/>
+      <class name="CMSPack_1.DelDocsTC"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

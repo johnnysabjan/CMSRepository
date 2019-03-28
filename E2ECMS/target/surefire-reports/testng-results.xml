@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="186527" started-at="2019-03-27T13:11:21Z" finished-at="2019-03-27T13:14:28Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="186527" started-at="2019-03-27T13:11:21Z" finished-at="2019-03-27T13:14:28Z">
+      <class name="CMSPack_1.DelDocsTC">
+        <test-method status="PASS" signature="Blogintodelete()[pri:0, instance:CMSPack_1.DelDocsTC@4116aac9]" name="Blogintodelete" duration-ms="7936" started-at="2019-03-27T18:44:00Z" finished-at="2019-03-27T18:44:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Blogintodelete -->
+        <test-method status="PASS" signature="DelallDoc()[pri:0, instance:CMSPack_1.DelDocsTC@4116aac9]" name="DelallDoc" duration-ms="18779" started-at="2019-03-27T18:44:08Z" finished-at="2019-03-27T18:44:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DelallDoc -->
+      </class> <!-- CMSPack_1.DelDocsTC -->
+      <class name="CMSPack_1.AddDocument">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:CMSPack_1.AddDocument@2cd76f31]" name="initialize" is-config="true" duration-ms="4339" started-at="2019-03-27T18:41:21Z" finished-at="2019-03-27T18:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:CMSPack_1.CMSLogin@367ffa75]" name="initialize" is-config="true" duration-ms="6685" started-at="2019-03-27T18:41:25Z" finished-at="2019-03-27T18:41:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:CMSPack_1.DelDocsTC@4116aac9]" name="initialize" is-config="true" duration-ms="7499" started-at="2019-03-27T18:41:32Z" finished-at="2019-03-27T18:41:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="AddDocuments(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CMSPack_1.AddDocument@2cd76f31]" name="AddDocuments" duration-ms="52315" started-at="2019-03-27T18:41:55Z" data-provider="Docinputs" finished-at="2019-03-27T18:42:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sabjan Doc1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C:\Users\sabjansab\Downloads\Test_Plan_Template_02.doc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test Desc1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddDocuments -->
+        <test-method status="PASS" signature="AddDocuments(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CMSPack_1.AddDocument@2cd76f31]" name="AddDocuments" duration-ms="36482" started-at="2019-03-27T18:42:48Z" data-provider="Docinputs" finished-at="2019-03-27T18:43:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sabjan Doc2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C:\Users\sabjansab\Downloads\Test_Plan_Template_03.doc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test Desc2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddDocuments -->
+        <test-method status="PASS" signature="AddDocuments(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CMSPack_1.AddDocument@2cd76f31]" name="AddDocuments" duration-ms="35380" started-at="2019-03-27T18:43:24Z" data-provider="Docinputs" finished-at="2019-03-27T18:44:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sabjan Doc3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C:\Users\sabjansab\Downloads\Test_Plan_Template_04.doc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test Desc3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddDocuments -->
+        <test-method status="PASS" signature="close()[pri:0, instance:CMSPack_1.AddDocument@2cd76f31]" name="close" is-config="true" duration-ms="199" started-at="2019-03-27T18:44:27Z" finished-at="2019-03-27T18:44:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- CMSPack_1.AddDocument -->
+      <class name="CMSPack_1.CMSLogin">
+        <test-method status="PASS" signature="AALogintoCMS()[pri:0, instance:CMSPack_1.CMSLogin@367ffa75]" name="AALogintoCMS" duration-ms="15121" started-at="2019-03-27T18:41:40Z" finished-at="2019-03-27T18:41:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AALogintoCMS -->
+      </class> <!-- CMSPack_1.CMSLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

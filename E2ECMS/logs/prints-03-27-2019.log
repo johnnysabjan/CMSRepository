@@ -1,0 +1,7 @@
+17:46:58.301 [main] INFO  CommonResources.Base - Intialize the browser
+17:47:01.439 [main] INFO  CommonResources.Base - Browser intialization completed
+17:47:11.732 [main] DEBUG CommonResources.Base - Start adding the document
+17:47:49.658 [main] DEBUG CommonResources.Base - Start adding the document
+17:48:02.118 [main] DEBUG CommonResources.Base - Start adding the document
+17:48:14.579 [main] INFO  CommonResources.Base - Enter URL
+17:48:21.373 [main] INFO  CommonResources.Base - Logged in successfully
